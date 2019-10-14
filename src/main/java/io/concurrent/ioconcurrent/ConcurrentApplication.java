@@ -1,0 +1,13 @@
+package io.concurrent.ioconcurrent;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ConcurrentApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(ConcurrentApplication.class, args);
+    }
+
+}
